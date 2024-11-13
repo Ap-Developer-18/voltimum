@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth !important;
+}
+
+body {
+  scroll-behavior: smooth !important;
+}
+
+.slick-track {
+  display: flex !important;
+  gap: 20px !important;
+}
+
+#distributor-popup .content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0 1000px white inset !important;
+  -webkit-text-fill-color: black !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  scrollbar-width: none;
+}
+
+#main-image.zoomed {
+  transform: scale(1.5);
+}

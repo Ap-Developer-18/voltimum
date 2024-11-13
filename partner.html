@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" href="./assets/images/common/logo_v.ico">
+    <!-- Primary Meta Tags -->
+    <title>ABB PARTNER</title>
+    <meta name="title" content="ABB PARTNER" />
+    <meta name="description"
+        content="Electrifying the world in a safe, smart and sustainable way, ABB Electrification is a global technology leader in electrical distribution and management from source to socket. We develop innovative products, solutions and digital technologies that enable energy efficiency and a low carbon society across all sectors. By applying global scale with local expertise, we shape and support global trends, deliver excellence for customers and power a sustainable future for society." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="ABB PARTNER" />
+    <meta property="og:description"
+        content="Electrifying the world in a safe, smart and sustainable way, ABB Electrification is a global technology leader in electrical distribution and management from source to socket. We develop innovative products, solutions and digital technologies that enable energy efficiency and a low carbon society across all sectors. By applying global scale with local expertise, we shape and support global trends, deliver excellence for customers and power a sustainable future for society." />
+    <meta property="og:image" content="https://i.postimg.cc/BZrDXmKh/Screenshot-2024-10-07-160826.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="ABB PARTNER" />
+    <meta property="twitter:description"
+        content="Electrifying the world in a safe, smart and sustainable way, ABB Electrification is a global technology leader in electrical distribution and management from source to socket. We develop innovative products, solutions and digital technologies that enable energy efficiency and a low carbon society across all sectors. By applying global scale with local expertise, we shape and support global trends, deliver excellence for customers and power a sustainable future for society." />
+    <meta property="twitter:image" content="https://i.postimg.cc/BZrDXmKh/Screenshot-2024-10-07-160826.png" />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./assets/tailwind.js"></script>
+</head>
+
+<body>
+    <section>
+        <div class="bg-dark-red py-3 max-lg:hidden">
+            <h3 class="text-aqua-haze px-2 text-center text-sm font-semibold leading-120">
+                ABB is the largest UK distributor of electrical stuff
+            </h3>
+        </div>
+        <nav class="container pt-3 pb-[14px] flex items-center justify-between xl:px-9 max-sm:px-[26px]">
+            <div class="flex gap-[30px] items-center">
+                <div id="navToggle">
+                    <!-- Hamburger Icon (shown when navbar is closed) -->
+                    <img loading="lazy" id="hamburger" src="./assets/images/common/svg/hamburger.svg" alt="hamburger"
+                        class="cursor-pointer lg:hidden block" />
+                    <!-- Cross Icon (shown when navbar is open) -->
+                    <img loading="lazy" id="cross" src="./assets/images/common/svg/cross.svg" alt="cross"
+                        class="cursor-pointer lg:hidden hidden" />
+                </div>
+
+                <!-- SEARCH ICON -->
+                <div class="lg:pe-[27px] lg:hidden block">
+                    <img loading="lazy" onclick="toggleSearchPopup()" src="./assets/images/common/svg/search.svg"
+                        alt="search icon" class="cursor-pointer" />
+                </div>
+                <!--popup -->
+                <div id="search-popup"
+                    class=" bg-white min-h-screen absolute w-full left-0 top-[-15000px] justify-center items-center lg:hidden transition-all duration-700">
+                    <div class="px-[29px] bg-white relative z-10">
+                        <div class="w-full bg-white">
+                            <div class="flex justify-between py-5">
+                                <p class="font-medium text-xl text-black leading-120">
+                                    Product Search
+                                </p>
+                                <svg onclick="closeSearchPopup()" class="cursor-pointer duration-300 hover:scale-125"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 18L18 6M6 6L18 18" stroke="black" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-[29px] relative z-10 bg-white">
+                        <div class="border border-solid border-mercury w-full mx-auto"></div>
+                    </div>
+                    <div class="px-[29px] relative z-10 bg-white min-h-screen">
+                        <div class="flex justify-between w-full"></div>
+                        <div
+                            class="w-full border border-light-grey rounded-custom-xs p-[7px_8px_7px_18px] mt-8 mb-7 mx-auto bg-white">
+                            <div class="flex justify-between w-full">
+                                <div class="flex items-center gap-2 w-full">
+                                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14.875 14.875L11.1938 11.1938M11.1938 11.1938C12.1901 10.1975 12.7499 8.84617 12.7499 7.43715C12.7499 6.02813 12.1901 4.67683 11.1938 3.6805C10.1975 2.68418 8.84617 2.12445 7.43715 2.12445C6.02813 2.12445 4.67683 2.68418 3.6805 3.6805C2.68418 4.67683 2.12445 6.02813 2.12445 7.43715C2.12445 8.84617 2.68418 10.1975 3.6805 11.1938C4.67683 12.1901 6.02813 12.7498 7.43715 12.7498C8.84617 12.7498 10.1975 12.1901 11.1938 11.1938Z"
+                                            stroke="#9CA3AF" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                    <input type="text" placeholder="Search products"
+                                        class="border-0 outline-none font-semibold text-xs sm:text-sm !leading-120 w-full" />
+                                </div>
+                                <svg class="cursor-pointer ml-2" width="35" height="24" viewBox="0 0 35 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="0.5" y="0.5" width="34" height="23" rx="4.5" fill="white"
+                                        stroke="#E5E7EB" />
+                                    <path
+                                        d="M9.7983 17.2237C9.38068 17.2237 8.99953 17.1226 8.65483 16.9205C8.31013 16.715 8.03504 16.4399 7.82955 16.0952C7.62405 15.7472 7.52131 15.366 7.52131 14.9517C7.52131 14.5308 7.62405 14.148 7.82955 13.8033C8.03504 13.4586 8.31013 13.1835 8.65483 12.978C8.99953 12.7725 9.38068 12.6697 9.7983 12.6697H10.8324V11.1385H9.7983C9.38068 11.1385 8.99953 11.0374 8.65483 10.8352C8.31013 10.6297 8.03504 10.3563 7.82955 10.0149C7.62405 9.67022 7.52131 9.2874 7.52131 8.86648C7.52131 8.44886 7.62405 8.06771 7.82955 7.72301C8.03504 7.37831 8.31013 7.10488 8.65483 6.9027C8.99953 6.69721 9.38068 6.59446 9.7983 6.59446C10.2159 6.59446 10.5971 6.69721 10.9418 6.9027C11.2865 7.10488 11.5616 7.37831 11.767 7.72301C11.9759 8.06771 12.0803 8.44886 12.0803 8.86648V9.8956H13.6065V8.86648C13.6065 8.44886 13.7076 8.06771 13.9098 7.72301C14.1153 7.37831 14.3904 7.10488 14.7351 6.9027C15.0798 6.69721 15.4626 6.59446 15.8835 6.59446C16.3011 6.59446 16.6823 6.69721 17.027 6.9027C17.3717 7.10488 17.6451 7.37831 17.8473 7.72301C18.0528 8.06771 18.1555 8.44886 18.1555 8.86648C18.1555 9.2874 18.0528 9.67022 17.8473 10.0149C17.6418 10.3563 17.3667 10.6297 17.022 10.8352C16.6806 11.0374 16.3011 11.1385 15.8835 11.1385H14.8544V12.6697H15.8835C16.3011 12.6697 16.6806 12.7725 17.022 12.978C17.3667 13.1835 17.6418 13.4586 17.8473 13.8033C18.0528 14.148 18.1555 14.5308 18.1555 14.9517C18.1555 15.366 18.0528 15.7472 17.8473 16.0952C17.6418 16.4399 17.3667 16.715 17.022 16.9205C16.6806 17.1226 16.3011 17.2237 15.8835 17.2237C15.4626 17.2237 15.0798 17.1226 14.7351 16.9205C14.3904 16.715 14.1153 16.4399 13.9098 16.0952C13.7076 15.7472 13.6065 15.366 13.6065 14.9517V13.9126H12.0803V14.9517C12.0803 15.366 11.9759 15.7472 11.767 16.0952C11.5616 16.4399 11.2865 16.715 10.9418 16.9205C10.5971 17.1226 10.2159 17.2237 9.7983 17.2237ZM9.7983 15.9808C9.98722 15.9808 10.1596 15.9344 10.3153 15.8416C10.4744 15.7488 10.6004 15.6245 10.6932 15.4688C10.786 15.313 10.8324 15.1406 10.8324 14.9517V13.9126H9.7983C9.60938 13.9126 9.43703 13.9607 9.28125 14.0568C9.12547 14.1496 9.00118 14.2739 8.90838 14.4297C8.81558 14.5855 8.76918 14.7595 8.76918 14.9517C8.76918 15.1406 8.81392 15.313 8.90341 15.4688C8.99621 15.6245 9.1205 15.7488 9.27628 15.8416C9.43537 15.9344 9.60938 15.9808 9.7983 15.9808ZM9.7983 9.8956H10.8324V8.86648C10.8324 8.67424 10.786 8.50189 10.6932 8.34943C10.6004 8.19366 10.4744 8.06937 10.3153 7.97656C10.1596 7.88376 9.98722 7.83736 9.7983 7.83736C9.60938 7.83736 9.43703 7.88376 9.28125 7.97656C9.12547 8.06937 9.00118 8.19366 8.90838 8.34943C8.81558 8.50189 8.76918 8.67424 8.76918 8.86648C8.76918 9.0554 8.81392 9.2294 8.90341 9.38849C8.99621 9.54427 9.1205 9.66856 9.27628 9.76136C9.43537 9.85085 9.60938 9.8956 9.7983 9.8956ZM14.8544 9.8956H15.8835C16.0724 9.8956 16.2448 9.85085 16.4006 9.76136C16.5563 9.66856 16.679 9.54427 16.7685 9.38849C16.8613 9.23272 16.9077 9.05871 16.9077 8.86648C16.9077 8.67424 16.8613 8.50189 16.7685 8.34943C16.679 8.19366 16.5563 8.06937 16.4006 7.97656C16.2448 7.88376 16.0724 7.83736 15.8835 7.83736C15.6913 7.83736 15.5173 7.88376 15.3615 7.97656C15.2057 8.06937 15.0814 8.19366 14.9886 8.34943C14.8991 8.50189 14.8544 8.67424 14.8544 8.86648V9.8956ZM15.8835 15.9808C16.0724 15.9808 16.2448 15.9344 16.4006 15.8416C16.5563 15.7488 16.679 15.6245 16.7685 15.4688C16.8613 15.313 16.9077 15.1406 16.9077 14.9517C16.9077 14.7595 16.8613 14.5855 16.7685 14.4297C16.679 14.2739 16.5563 14.1496 16.4006 14.0568C16.2448 13.9607 16.0724 13.9126 15.8835 13.9126H14.8544V14.9517C14.8544 15.1406 14.8991 15.313 14.9886 15.4688C15.0814 15.6245 15.2057 15.7488 15.3615 15.8416C15.5173 15.9344 15.6913 15.9808 15.8835 15.9808ZM12.0803 12.6697H13.6065V11.1385H12.0803V12.6697ZM20.6761 17V6.81818H22.5206V11.4964H22.6449L26.6172 6.81818H28.8693L24.9318 11.3871L28.9041 17H26.6868L23.6491 12.6349L22.5206 13.9673V17H20.6761Z"
+                                        fill="#9CA3AF" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="border border-solid border-mercury"></div>
+                        <p class="font-medium text-xl text-black leading-120 pt-5 pb-4">
+                            Recent searches
+                        </p>
+                        <p class="font-normal text-sm leading-120 text-light-blue pb-4">
+                            Push button
+                        </p>
+                        <p class="font-normal text-sm leading-120 text-light-blue pb-4">
+                            consumer unit
+                        </p>
+                        <p class="font-normal text-sm leading-120 text-light-blue pb-4">
+                            Circuit breaker
+                        </p>
+                        <p class="font-normal text-sm leading-120 text-light-blue pb-4">
+                            mini contactor
+                        </p>
+                    </div>
+                    <div class="bg-light-black bg-opacity-70 absolute top-[-72px] left-0 w-full z-0 min-h-screen mt-[-5px]"
+                        onclick="closeSearchPopup()"></div>
+                </div>
+            </div>
+
+            <!-- PAGE LOGO -->
+            <a aria-label="logo" href="/"><img loading="lazy" src="./assets/images/common/webp/page-logo.webp"
+                    alt="page-logo" class="w-[135px] h-[38px]" /></a>
+
+            <!-- LINKS LIST (Initially hidden below lg) -->
+            <ul id="navbarLinks"
+                class="lg:flex  bg-white transition-all ease-in-out flex-col fixed lg:static -left-[140%] lg:h-[unset] lg:w-[unset] max-w-[768px] lg:max-w-[1280px] top-[68px] h-screen w-full lg:flex-row xl:gap-[27px] lg:gap-4 sm:pt-5 lg:pt-0 pt-8 lg:!mx-auto max-lg:z-50 duration-300">
+                <li
+                    class="lg:text-sm text-lg font-semibold w-max leading-120 text-charcoal-grey hover:text-dark-red transition-all duration-300 ease-in-out close relative after:absolute after:left-1/2 after:hover:left-0 after:-bottom-[24px] after:w-0 after:hover:lg:w-full after:transition-all after:duration-300 after:h-[1px] after:bg-dark-red ps-5 lg:ps-0">
+                    <a aria-label="news" href="#">News</a>
+                </li>
+                <li
+                    class="lg:text-sm lg:pt-0 pt-[18px] w-max text-lg font-semibold leading-120 text-charcoal-grey hover:text-dark-red transition-all duration-300 ease-in-out close relative after:absolute after:left-1/2 after:hover:left-0 after:-bottom-[24px] after:w-0 after:hover:lg:w-full after:transition-all after:duration-300 after:h-[1px] after:bg-dark-red ps-5 lg:ps-0">
+                    <a aria-label="technical" href="#" class="relative z-[11]">Technical</a>
+                </li>
+                <li data-tooltip-target="tooltip-default"
+                    class="lg:text-sm lg:pt-0 pt-[18px] text-lg font-semibold leading-120 text-charcoal-grey hover:text-dark-red transition-all duration-300 ease-in-out w-max relative after:absolute after:left-1/2 after:hover:left-0 after:-bottom-[24px] after:w-0 after:hover:lg:w-full after:transition-all after:duration-300 after:h-[1px] after:bg-dark-red ps-5 lg:ps-0"
+                    onmouseover="showTooltip(this)" onmouseout="hideTooltip(this)">
+                    <a aria-label="question" href="#" class="cursor-pointer relative z-[14]">Q&A</a>
+                    <div id="tooltip-default" role="tooltip"
+                        class="lg:pt-10 pt-14 duration-300 tooltip invisible transition-opacity absolute lg:left-1/2 left-0 top-0 lg:-translate-x-1/2 z-10 inline-block opacity-0 ps-5 lg:ps-0">
+                        <div class="text-white bg-dark-red rounded-[5px] py-[19px] ps-[19px] pe-10 shadow-nav-blue">
+                            <p>
+                                <a aria-label="question" href="#"
+                                    class="whitespace-nowrap text-sm block font-semibold leading-120">Q&A of the
+                                    Day</a>
+                            </p>
+                            <p>
+                                <a aria-label="expert" href="#"
+                                    class="whitespace-nowrap text-sm block font-semibold leading-120 pt-[14px]">Ask an
+                                    Expert</a>
+                            </p>
+                            <p>
+                                <a aria-label="community" href="#"
+                                    class="whitespace-nowrap text-sm block font-semibold leading-120 pt-[14px]">Community
+                                    questions</a>
+                            </p>
+                            <div class="tooltip-arrow" data-popper-arrow></div>
+                            <span
+                                class="absolute lg:top-[30px] top-11 lg:left-1/2 left-1 lg:-translate-x-1/2 ps-5 lg:ps-0">
+                                <svg width="16" height="14" viewBox="0 0 16 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 0L15.7942 13.5H0.205771L8 0Z" fill="#E3000B" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+                <li
+                    class="lg:text-sm lg:pt-0 pt-[18px] w-max text-lg font-semibold leading-120 text-charcoal-grey hover:text-dark-red transition-all duration-300 ease-in-out close relative after:absolute after:left-1/2 after:hover:left-0 after:-bottom-[24px] after:w-0 after:hover:lg:w-full after:transition-all after:duration-300 after:h-[1px] after:bg-dark-red ps-5 lg:ps-0">
+                    <a aria-label="video" href="#" class="relative z-[9] lg:z-[11]">Videos</a>
+                </li>
+                <li
+                    class="lg:text-sm lg:pt-0 pt-[18px] w-max text-lg font-semibold leading-120 text-charcoal-grey hover:text-dark-red transition-all duration-300 ease-in-out close relative after:absolute after:left-1/2 after:hover:left-0 after:-bottom-[24px] after:w-0 after:hover:lg:w-full after:transition-all after:duration-300 after:h-[1px] after:bg-dark-red ps-5 lg:ps-0">
+                    <a aria-label="finder" href="/product-finder.html">Product Finder</a>
+                </li>
+                <li
+                    class="lg:text-sm lg:pt-0 pt-[18px] w-max text-lg font-semibold leading-120 text-charcoal-grey hover:text-dark-red transition-all duration-300 ease-in-out close relative after:absolute after:left-1/2 after:hover:left-0 after:-bottom-[24px] after:w-0 after:hover:lg:w-full after:transition-all after:duration-300 after:h-[1px] after:bg-dark-red ps-5 lg:ps-0">
+                    <a aria-label="academy" href="#">Academy</a>
+                </li>
+                <li
+                    class="lg:text-sm lg:pt-0 pt-[18px] w-max text-lg font-semibold leading-120 text-charcoal-grey hover:text-dark-red transition-all duration-300 ease-in-out close relative after:absolute after:left-1/2 after:hover:left-0 after:-bottom-[24px] after:w-0 after:hover:lg:w-full after:transition-all after:duration-300 after:h-[1px] after:bg-dark-red ps-5 lg:ps-0">
+                    <a aria-label="catalogues" href="#">Catalogues</a>
+                </li>
+                <li
+                    class="lg:text-sm lg:pt-0 pt-[18px] w-max text-lg font-semibold leading-120 text-charcoal-grey hover:text-dark-red transition-all duration-300 ease-in-out close relative after:absolute after:left-1/2 after:hover:left-0 after:-bottom-[24px] after:w-0 after:hover:lg:w-full after:transition-all after:duration-300 after:h-[1px] after:bg-dark-red ps-5 lg:ps-0">
+                    <a aria-label="partner" href="/partner.html">Partners</a>
+                </li>
+                <li
+                    class="lg:text-sm lg:pt-0 pt-[18px] w-max text-lg font-semibold leading-120 text-charcoal-grey hover:text-dark-red transition-all duration-300 ease-in-out close relative after:absolute after:left-1/2 after:hover:left-0 after:-bottom-[24px] after:w-0 after:hover:lg:w-full after:transition-all after:duration-300 after:h-[1px] after:bg-dark-red ps-5 lg:ps-0">
+                    <a aria-label="voltimum" href="/branded.html">Voltimum Plus</a>
+                </li>
+                <li class="w-full h-[1px] lg:hidden bg-mercury mt-8 mb-[26px]"></li>
+                <li class="flex gap-2.5 lg:hidden close items-center w-max ps-5 lg:ps-0">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15.982 16.7249C15.2833 15.7998 14.3793 15.0496 13.3412 14.5333C12.3031 14.0171 11.1594 13.7489 10 13.7499C8.84066 13.7489 7.6969 14.0171 6.65883 14.5333C5.62077 15.0496 4.71675 15.7998 4.01801 16.7249M15.982 16.7249C17.3455 15.5121 18.3071 13.9135 18.7412 12.141C19.1753 10.3686 19.0603 8.50604 18.4115 6.80043C17.7627 5.09482 16.6107 3.62673 15.1084 2.59085C13.6061 1.55497 11.8244 1.00024 9.99951 1.00024C8.17467 1.00024 6.39295 1.55497 4.89062 2.59085C3.38829 3.62673 2.23634 5.09482 1.58755 6.80043C0.938753 8.50604 0.823765 10.3686 1.25783 12.141C1.6919 13.9135 2.65451 15.5121 4.01801 16.7249M15.982 16.7249C14.336 18.1931 12.2056 19.0031 10 18.9999C7.79404 19.0033 5.66425 18.1934 4.01801 16.7249M13 7.74995C13 8.5456 12.6839 9.30866 12.1213 9.87127C11.5587 10.4339 10.7957 10.7499 10 10.7499C9.20436 10.7499 8.4413 10.4339 7.87869 9.87127C7.31608 9.30866 7.00001 8.5456 7.00001 7.74995C7.00001 6.9543 7.31608 6.19124 7.87869 5.62863C8.4413 5.06602 9.20436 4.74995 10 4.74995C10.7957 4.74995 11.5587 5.06602 12.1213 5.62863C12.6839 6.19124 13 6.9543 13 7.74995Z"
+                            stroke="#9CA3AF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <p class="text-lg font-semibold leading-120 text-light-blue">
+                        Login
+                    </p>
+                </li>
+            </ul>
+
+            <!-- Additional Icons/Buttons -->
+            <div class="flex xl:gap-9 gap-3">
+                <div class="h-6 w-[1px] lg:block hidden bg-mercury xl:me-3"></div>
+                <div class="lg:flex hidden xl:gap-2.5 gap-1 items-center">
+                    <svg class="cursor-pointer" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15.982 16.7249C15.2833 15.7998 14.3793 15.0496 13.3412 14.5333C12.3031 14.0171 11.1594 13.7489 10 13.7499C8.84066 13.7489 7.6969 14.0171 6.65883 14.5333C5.62077 15.0496 4.71675 15.7998 4.01801 16.7249M15.982 16.7249C17.3455 15.5121 18.3071 13.9135 18.7412 12.141C19.1753 10.3686 19.0603 8.50604 18.4115 6.80043C17.7627 5.09482 16.6107 3.62673 15.1084 2.59085C13.6061 1.55497 11.8244 1.00024 9.99951 1.00024C8.17467 1.00024 6.39295 1.55497 4.89062 2.59085C3.38829 3.62673 2.23634 5.09482 1.58755 6.80043C0.938753 8.50604 0.823765 10.3686 1.25783 12.141C1.6919 13.9135 2.65451 15.5121 4.01801 16.7249M15.982 16.7249C14.336 18.1931 12.2056 19.0031 10 18.9999C7.79404 19.0033 5.66425 18.1934 4.01801 16.7249M13 7.74995C13 8.5456 12.6839 9.30866 12.1213 9.87127C11.5587 10.4339 10.7957 10.7499 10 10.7499C9.20436 10.7499 8.4413 10.4339 7.87869 9.87127C7.31608 9.30866 7.00001 8.5456 7.00001 7.74995C7.00001 6.9543 7.31608 6.19124 7.87869 5.62863C8.4413 5.06602 9.20436 4.74995 10 4.74995C10.7957 4.74995 11.5587 5.06602 12.1213 5.62863C12.6839 6.19124 13 6.9543 13 7.74995Z"
+                            stroke="#9CA3AF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                    <p class="text-sm cursor-pointer font-semibold leading-120 text-light-blue">
+                        Login
+                    </p>
+                </div>
+                <div class="flex gap-2.5 items-center">
+                    <svg class="cursor-pointer" width="20" height="22" viewBox="0 0 20 22" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M13.75 9.5V5C13.75 4.00544 13.3549 3.05161 12.6516 2.34835C11.9484 1.64509 10.9945 1.25 9.99998 1.25C9.00542 1.25 8.0516 1.64509 7.34833 2.34835C6.64507 3.05161 6.24998 4.00544 6.24998 5V9.5M17.606 7.507L18.869 19.507C18.939 20.172 18.419 20.75 17.75 20.75H2.24998C2.09219 20.7502 1.93613 20.7171 1.79193 20.6531C1.64774 20.589 1.51863 20.4953 1.41301 20.3781C1.30738 20.2608 1.2276 20.1227 1.17884 19.9726C1.13008 19.8226 1.11343 19.6639 1.12999 19.507L2.39399 7.507C2.42314 7.23056 2.55361 6.9747 2.76024 6.78876C2.96686 6.60281 3.23501 6.49995 3.51298 6.5H16.487C17.063 6.5 17.546 6.935 17.606 7.507ZM6.62498 9.5C6.62498 9.59946 6.58548 9.69484 6.51515 9.76517C6.44482 9.83549 6.34944 9.875 6.24998 9.875C6.15053 9.875 6.05515 9.83549 5.98482 9.76517C5.91449 9.69484 5.87498 9.59946 5.87498 9.5C5.87498 9.40054 5.91449 9.30516 5.98482 9.23483C6.05515 9.16451 6.15053 9.125 6.24998 9.125C6.34944 9.125 6.44482 9.16451 6.51515 9.23483C6.58548 9.30516 6.62498 9.40054 6.62498 9.5ZM14.125 9.5C14.125 9.59946 14.0855 9.69484 14.0152 9.76517C13.9448 9.83549 13.8494 9.875 13.75 9.875C13.6505 9.875 13.5551 9.83549 13.4848 9.76517C13.4145 9.69484 13.375 9.59946 13.375 9.5C13.375 9.40054 13.4145 9.30516 13.4848 9.23483C13.5551 9.16451 13.6505 9.125 13.75 9.125C13.8494 9.125 13.9448 9.16451 14.0152 9.23483C14.0855 9.30516 14.125 9.40054 14.125 9.5Z"
+                            stroke="#9CA3AF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <p class="text-sm font-semibold leading-120 text-light-blue">0</p>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="w-full  bg-mercury h-[1px] mx-auto"></div>
+        </div>
+    </section>
+    <div>
+        <div class="container xl:px-9">
+            <div class="flex gap-3 sm:gap-6 items-center flex-wrap sm:flex-nowrap mt-4 sm:mt-0">
+                <img loading="lazy" width="103" height="39" class="w-[108px] h-[39px]"
+                    src="./assets/images/partner/webp/abb-logo.webp" alt="abb-logo">
+                <div class="w-full border border-light-grey rounded-[10px] p-[7px_8px_7px_18px] sm:my-6 mx-auto">
+                    <div class="flex justify-between w-full">
+                        <div class="flex items-center gap-2 w-full">
+                            <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.875 14.875L11.1938 11.1938M11.1938 11.1938C12.1901 10.1975 12.7499 8.84617 12.7499 7.43715C12.7499 6.02813 12.1901 4.67683 11.1938 3.6805C10.1975 2.68418 8.84617 2.12445 7.43715 2.12445C6.02813 2.12445 4.67683 2.68418 3.6805 3.6805C2.68418 4.67683 2.12445 6.02813 2.12445 7.43715C2.12445 8.84617 2.68418 10.1975 3.6805 11.1938C4.67683 12.1901 6.02813 12.7498 7.43715 12.7498C8.84617 12.7498 10.1975 12.1901 11.1938 11.1938Z"
+                                    stroke="#9CA3AF" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <input type="text" placeholder="Search ABB products and content"
+                                class="border-0 outline-none font-semibold text-xs sm:text-sm !leading-120 w-full" />
+                        </div>
+                        <svg class="cursor-pointer ml-2" width="35" height="24" viewBox="0 0 35 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.5" y="0.5" width="34" height="23" rx="4.5" fill="white" stroke="#E5E7EB" />
+                            <path
+                                d="M9.7983 17.2237C9.38068 17.2237 8.99953 17.1226 8.65483 16.9205C8.31013 16.715 8.03504 16.4399 7.82955 16.0952C7.62405 15.7472 7.52131 15.366 7.52131 14.9517C7.52131 14.5308 7.62405 14.148 7.82955 13.8033C8.03504 13.4586 8.31013 13.1835 8.65483 12.978C8.99953 12.7725 9.38068 12.6697 9.7983 12.6697H10.8324V11.1385H9.7983C9.38068 11.1385 8.99953 11.0374 8.65483 10.8352C8.31013 10.6297 8.03504 10.3563 7.82955 10.0149C7.62405 9.67022 7.52131 9.2874 7.52131 8.86648C7.52131 8.44886 7.62405 8.06771 7.82955 7.72301C8.03504 7.37831 8.31013 7.10488 8.65483 6.9027C8.99953 6.69721 9.38068 6.59446 9.7983 6.59446C10.2159 6.59446 10.5971 6.69721 10.9418 6.9027C11.2865 7.10488 11.5616 7.37831 11.767 7.72301C11.9759 8.06771 12.0803 8.44886 12.0803 8.86648V9.8956H13.6065V8.86648C13.6065 8.44886 13.7076 8.06771 13.9098 7.72301C14.1153 7.37831 14.3904 7.10488 14.7351 6.9027C15.0798 6.69721 15.4626 6.59446 15.8835 6.59446C16.3011 6.59446 16.6823 6.69721 17.027 6.9027C17.3717 7.10488 17.6451 7.37831 17.8473 7.72301C18.0528 8.06771 18.1555 8.44886 18.1555 8.86648C18.1555 9.2874 18.0528 9.67022 17.8473 10.0149C17.6418 10.3563 17.3667 10.6297 17.022 10.8352C16.6806 11.0374 16.3011 11.1385 15.8835 11.1385H14.8544V12.6697H15.8835C16.3011 12.6697 16.6806 12.7725 17.022 12.978C17.3667 13.1835 17.6418 13.4586 17.8473 13.8033C18.0528 14.148 18.1555 14.5308 18.1555 14.9517C18.1555 15.366 18.0528 15.7472 17.8473 16.0952C17.6418 16.4399 17.3667 16.715 17.022 16.9205C16.6806 17.1226 16.3011 17.2237 15.8835 17.2237C15.4626 17.2237 15.0798 17.1226 14.7351 16.9205C14.3904 16.715 14.1153 16.4399 13.9098 16.0952C13.7076 15.7472 13.6065 15.366 13.6065 14.9517V13.9126H12.0803V14.9517C12.0803 15.366 11.9759 15.7472 11.767 16.0952C11.5616 16.4399 11.2865 16.715 10.9418 16.9205C10.5971 17.1226 10.2159 17.2237 9.7983 17.2237ZM9.7983 15.9808C9.98722 15.9808 10.1596 15.9344 10.3153 15.8416C10.4744 15.7488 10.6004 15.6245 10.6932 15.4688C10.786 15.313 10.8324 15.1406 10.8324 14.9517V13.9126H9.7983C9.60938 13.9126 9.43703 13.9607 9.28125 14.0568C9.12547 14.1496 9.00118 14.2739 8.90838 14.4297C8.81558 14.5855 8.76918 14.7595 8.76918 14.9517C8.76918 15.1406 8.81392 15.313 8.90341 15.4688C8.99621 15.6245 9.1205 15.7488 9.27628 15.8416C9.43537 15.9344 9.60938 15.9808 9.7983 15.9808ZM9.7983 9.8956H10.8324V8.86648C10.8324 8.67424 10.786 8.50189 10.6932 8.34943C10.6004 8.19366 10.4744 8.06937 10.3153 7.97656C10.1596 7.88376 9.98722 7.83736 9.7983 7.83736C9.60938 7.83736 9.43703 7.88376 9.28125 7.97656C9.12547 8.06937 9.00118 8.19366 8.90838 8.34943C8.81558 8.50189 8.76918 8.67424 8.76918 8.86648C8.76918 9.0554 8.81392 9.2294 8.90341 9.38849C8.99621 9.54427 9.1205 9.66856 9.27628 9.76136C9.43537 9.85085 9.60938 9.8956 9.7983 9.8956ZM14.8544 9.8956H15.8835C16.0724 9.8956 16.2448 9.85085 16.4006 9.76136C16.5563 9.66856 16.679 9.54427 16.7685 9.38849C16.8613 9.23272 16.9077 9.05871 16.9077 8.86648C16.9077 8.67424 16.8613 8.50189 16.7685 8.34943C16.679 8.19366 16.5563 8.06937 16.4006 7.97656C16.2448 7.88376 16.0724 7.83736 15.8835 7.83736C15.6913 7.83736 15.5173 7.88376 15.3615 7.97656C15.2057 8.06937 15.0814 8.19366 14.9886 8.34943C14.8991 8.50189 14.8544 8.67424 14.8544 8.86648V9.8956ZM15.8835 15.9808C16.0724 15.9808 16.2448 15.9344 16.4006 15.8416C16.5563 15.7488 16.679 15.6245 16.7685 15.4688C16.8613 15.313 16.9077 15.1406 16.9077 14.9517C16.9077 14.7595 16.8613 14.5855 16.7685 14.4297C16.679 14.2739 16.5563 14.1496 16.4006 14.0568C16.2448 13.9607 16.0724 13.9126 15.8835 13.9126H14.8544V14.9517C14.8544 15.1406 14.8991 15.313 14.9886 15.4688C15.0814 15.6245 15.2057 15.7488 15.3615 15.8416C15.5173 15.9344 15.6913 15.9808 15.8835 15.9808ZM12.0803 12.6697H13.6065V11.1385H12.0803V12.6697ZM20.6761 17V6.81818H22.5206V11.4964H22.6449L26.6172 6.81818H28.8693L24.9318 11.3871L28.9041 17H26.6868L23.6491 12.6349L22.5206 13.9673V17H20.6761Z"
+                                fill="#9CA3AF" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <img loading="lazy" width="244" height="22" class="mt-4 sm:mt-0"
+                src="./assets/images/partner/svg/abb-partners.svg" alt="abb-partners" />
+        </div>
+    </div>
+    <section>
+        <div class="container xl:px-9">
+            <div class="flex gap-[18px] mt-5 flex-col lg:flex-row">
+                <div
+                    class="bg-dark-red rounded-[10px] lg:max-w-[634px] max-md:w-full p-5 md:p-[43px_25px_53px_25px] lg:p-[43px_52px_53px_49px]">
+                    <h2 class="font-semibold text-2xl md:text-custom-3xl text-white">Welcome to ABB</h2>
+                    <p rel="preload" class="font-medium text-xs leading-150 text-white mt-3 md:mt-[14px]">Electrifying
+                        the world in a
+                        safe,
+                        smart and sustainable way, ABB Electrification is a global
+                        technology leader in electrical distribution and management from source to socket. We develop
+                        innovative products, solutions and digital technologies that enable energy efficiency and a low
+                        carbon society across all sectors. By applying global scale with local expertise, we shape and
+                        support global trends, deliver excellence for customers and power a sustainable future for
+                        society.</p>
+                    <a href="https://new.abb.com" target="_blank" rel="noopener noreferrer"
+                        aria-label="Visit ABB official website" title="Click to visit ABB official website"
+                        class="font-semibold text-sm leading-120 text-dark-red bg-white pt-2 pb-[8px] px-[23px] rounded-[5px] mt-5 duration-300 hover:text-white hover:bg-dark-red hover:border-white border border-transparent inline-block text-center">
+                        Visit https://new.abb.com
+                    </a>
+                </div>
+                <iframe class="w-full" width="564" height="317" src="https://www.youtube.com/embed/-xjjbeXtimU"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container lg:px-6 pb-20 lg:pb-52">
+            <h2 class="font-semibold text-2xl md:text-4xl !leading-120 text-center mt-10 md:mt-[72px]">Popular Products
+            </h2>
+            <p class="font-semibold md:text-base text-xs !leading-120 text-center text-light-grey mt-[10px]">View the
+                most popular
+                ABB products and order them online today</p>
+            <div class="w-full h-[309px] bg-neutral-grey mt-10 md:mt-14"></div>
+            <div class="w-full h-[309px] bg-neutral-grey mt-[32px] md:mt-[67px]"></div>
+        </div>
+    </section>
+    <!-- =========footer======== -->
+    <footer class="bg-dark-red lg:pt-[94px] sm:pt-16 pt-[64px]">
+        <div class="container max-w-[1140px] max-sm:pl-10">
+            <div class="flex flex-wrap flex-row mx-[-12px]">
+                <div class="lg:w-[25%] w-full px-3 max-sm:hidden">
+                    <a aria-label="footer-logo" href=""><img loading="lazy" width="135" height="38"
+                            src="./assets/images/home/svg/footer-logo.svg" alt="footer-logo" /></a>
+                    <p
+                        class="font-inter text-white lg:max-w-[254px] max-w-[430px] pt-4 font-normal text-sm leading-120">
+                        Voltimum is a digital platform and community that provides
+                        electrical professionals with industry news, product information,
+                        training, and tools for the electrical sector.
+                    </p>
+                </div>
+                <div class="lg:w-[74.97%] px-3 w-full lg:pt-0 sm:pt-9 pt-0">
+                    <div class="flex flex-wrap flex-row mx-[-12px]">
+                        <div class="md:w-[33.33%] sm:w-[50%] w-full px-[12px] flex lg:justify-center">
+                            <ul>
+                                <li class="font-semibold text-sm leading-120 text-white pb-[23px]">
+                                    Site Map
+                                </li>
+                                <li class="pb-[15px] font-normal text-sm leading-120">
+                                    <a aria-label="home" href=""
+                                        class="text-white relative after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-1 after:w-0 hover:after:w-full after:h-[1px] hover:text-dark-orange after:bg-white after:transition-all after:duration-300">Home</a>
+                                </li>
+                                <li class="pb-[15px] font-normal text-sm leading-120">
+                                    <a aria-label="product" href="/product.html"
+                                        class="text-white relative after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-1 after:w-0 hover:after:w-full after:h-[1px] hover:text-dark-orange after:bg-white after:transition-all after:duration-300">Product
+                                        Catalogues</a>
+                                </li>
+                                <li class="pb-[15px] font-normal text-sm leading-120">
+                                    <a aria-label="news" href=""
+                                        class="text-white relative after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-1 after:w-0 hover:after:w-full after:h-[1px] hover:text-dark-orange after:bg-white after:transition-all after:duration-300">News</a>
+                                </li>
+                                <li class="pb-[15px] font-normal text-sm leading-120">
+                                    <a aria-label="technical" href=""
+                                        class="text-white relative after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-1 after:w-0 hover:after:w-full after:h-[1px] hover:text-dark-orange after:bg-white after:transition-all after:duration-300">Technical
+                                        Topics</a>
+                                </li>
+                                <li class="pb-[15px] font-normal text-sm leading-120">
+                                    <a aria-label="expert" href=""
+                                        class="text-white relative after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-1 after:w-0 hover:after:w-full after:h-[1px] hover:text-dark-orange after:bg-white after:transition-all after:duration-300">Ask
+                                        an Expert</a>
+                                </li>
+                                <li class="pb-[15px] font-normal text-sm leading-120">
+                                    <a aria-label="academy" href=""
+                                        class="text-white relative after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-1 after:w-0 hover:after:w-full after:h-[1px] hover:text-dark-orange after:bg-white after:transition-all after:duration-300">Academy</a>
+                                </li>
+                                <li class="font-normal text-sm leading-120">
+                                    <a aria-label="partner" href="/partner.html"
+                                        class="text-white relative after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-1 after:w-0 hover:after:w-full after:h-[1px] hover:text-dark-orange after:bg-white after:transition-all after:duration-300">Partners</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="md:w-[33.33%] sm:w-[50%] w-full px-[12px] flex lg:justify-center sm:pt-0 pt-[53px]">
+                            <ul>
+                                <li class="font-semibold text-sm leading-120 text-white pb-[23px]">
+                                    Other Links
+                                </li>
+                                <li class="pb-[15px] font-normal text-sm leading-120">
+                                    <a aria-label="about" href=""
+                                        class="text-white relative after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-1 after:w-0 hover:after:w-full after:h-[1px] hover:text-dark-orange after:bg-white after:transition-all after:duration-300">About
+                                        Voltimum</a>
+                                </li>
+                                <li class="pb-[15px] font-normal text-sm leading-120">
+                                    <a aria-label="voltimum" href=""
+                                        class="text-white relative after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-1 after:w-0 hover:after:w-full after:h-[1px] hover:text-dark-orange after:bg-white after:transition-all after:duration-300">Voltimum
+                                        Services</a>
+                                </li>
+                                <li class="pb-[15px] font-normal text-sm leading-120">
+                                    <a aria-label="voltimum" href=""
+                                        class="text-white relative after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-1 after:w-0 hover:after:w-full after:h-[1px] hover:text-dark-orange after:bg-white after:transition-all after:duration-300">Voltimum
+                                        Media Pack</a>
+                                </li>
+                                <li class="pb-[15px] font-normal text-sm leading-120">
+                                    <a aria-label="eca" href=""
+                                        class="text-white relative after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-1 after:w-0 hover:after:w-full after:h-[1px] hover:text-dark-orange after:bg-white after:transition-all after:duration-300">ECA
+                                        Today Media Pack</a>
+                                </li>
+                                <li class="pb-[15px] font-normal text-sm leading-120">
+                                    <a aria-label="terms-condition" href=""
+                                        class="text-white relative after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-1 after:w-0 hover:after:w-full after:h-[1px] hover:text-dark-orange after:bg-white after:transition-all after:duration-300">Terms
+                                        and Conditions</a>
+                                </li>
+                                <li class="pb-[15px] font-normal text-sm leading-120">
+                                    <a aria-label="privacy" href=""
+                                        class="text-white relative after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-1 after:w-0 hover:after:w-full after:h-[1px] hover:text-dark-orange after:bg-white after:transition-all after:duration-300">Privacy
+                                        Policy</a>
+                                </li>
+                                <li class="pb-[15px] font-normal text-sm leading-120">
+                                    <a aria-label="contact" href=""
+                                        class="text-white relative after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-1 after:w-0 hover:after:w-full after:h-[1px] hover:text-dark-orange after:bg-white after:transition-all after:duration-300">Contact
+                                        Us</a>
+                                </li>
+                                <li class="font-normal text-sm leading-120">
+                                    <a aria-label="corporate" href=""
+                                        class="text-white relative after:absolute after:left-1/2 after:-translate-x-1/2 after:-bottom-1 after:w-0 hover:after:w-full after:h-[1px] hover:text-dark-orange after:bg-white after:transition-all after:duration-300">Corporate
+                                        Website</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="md:w-[33.33%] w-full px-[12px] md:pt-0 sm:pt-14 pt-[78px]">
+                            <p class="font-semibold text-sm leading-120 text-white pb-5">
+                                Register with Voltimum
+                            </p>
+                            <p class="font-normal text-sm leading-120 text-white max-w-[254px] pb-[18px]">
+                                Product tests and other information of over 20 partners in the
+                                industry.
+                            </p>
+                            <button aria-label="find out more"
+                                class="font-semibold text-sm leading-120 text-dark-red bg-white py-[13px] xl:px-[76px] px-12 rounded-[5px] hover:bg-dark-red hover:border-white border border-solid border-transparent transition-all ease-linear duration-300 max-sm:px-[96px] hover:text-white">
+                                Sign Up Today!
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border border-solid border-sky-blue md:mt-[53px] mt-9"></div>
+            <div class="flex flex-wrap items-center sm:gap-[42px] gap-6 justify-between md:!py-9 pt-6 pb-[67px]">
+                <div class="max-sm:flex items-center gap-6 hidden">
+                    <a aria-label="icon" href="https://www.facebook.com/" target="_blank">
+                        <svg class="hover:scale-[1.1] transition-all ease-linear duration-300" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_382_1120)">
+                                <path
+                                    d="M9.101 23.6909V15.7109H6.627V12.0439H9.101V10.4639C9.101 6.37895 10.949 4.48595 14.959 4.48595C15.36 4.48595 15.914 4.52795 16.427 4.58895C16.8112 4.62848 17.1924 4.69363 17.568 4.78395V8.10895C17.3509 8.08869 17.133 8.07668 16.915 8.07295C16.6707 8.0666 16.4264 8.0636 16.182 8.06395C15.475 8.06395 14.923 8.15995 14.507 8.37295C14.2273 8.51326 13.9922 8.72862 13.828 8.99495C13.57 9.41495 13.454 9.98995 13.454 10.7469V12.0439H17.373L16.987 14.1469L16.7 15.7109H13.454V23.9559C19.396 23.2379 24 18.1789 24 12.0439C24 5.41695 18.627 0.0439453 12 0.0439453C5.373 0.0439453 0 5.41695 0 12.0439C0 17.6719 3.874 22.3939 9.101 23.6909Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_382_1120">
+                                    <rect width="24" height="24" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a aria-label="linkedin" href="https://www.linkedin.com/login" target="_blank">
+                        <svg class="hover:scale-[1.1] transition-all ease-linear duration-300" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_382_1124)">
+                                <path
+                                    d="M20.447 20.452H16.893V14.883C16.893 13.555 16.866 11.846 15.041 11.846C13.188 11.846 12.905 13.291 12.905 14.785V20.452H9.351V9H12.765V10.561H12.811C13.288 9.661 14.448 8.711 16.181 8.711C19.782 8.711 20.448 11.081 20.448 14.166L20.447 20.452ZM5.337 7.433C4.193 7.433 3.274 6.507 3.274 5.368C3.274 4.23 4.194 3.305 5.337 3.305C6.477 3.305 7.401 4.23 7.401 5.368C7.401 6.507 6.476 7.433 5.337 7.433ZM7.119 20.452H3.555V9H7.119V20.452ZM22.225 0H1.771C0.792 0 0 0.774 0 1.729V22.271C0 23.227 0.792 24 1.771 24H22.222C23.2 24 24 23.227 24 22.271V1.729C24 0.774 23.2 0 22.222 0H22.225Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_382_1125">
+                                    <rect width="24" height="24" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a aria-label="you-tube" href="https://www.youtube.com/" target="_blank">
+                        <svg class="hover:scale-[1.1] transition-all ease-linear duration-300" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M23.498 6.18604C23.3624 5.67532 23.095 5.20918 22.7226 4.83431C22.3502 4.45943 21.8858 4.18899 21.376 4.05004C19.505 3.54504 12 3.54504 12 3.54504C12 3.54504 4.495 3.54504 2.623 4.05004C2.11341 4.18923 1.64929 4.45978 1.27708 4.83463C0.904861 5.20947 0.637591 5.67548 0.502 6.18604C0 8.07004 0 12 0 12C0 12 0 15.93 0.502 17.814C0.637586 18.3248 0.904975 18.7909 1.27739 19.1658C1.64981 19.5407 2.11418 19.8111 2.624 19.95C4.495 20.455 12 20.455 12 20.455C12 20.455 19.505 20.455 21.377 19.95C21.8869 19.8112 22.3513 19.5408 22.7237 19.1659C23.0961 18.791 23.3635 18.3248 23.499 17.814C24 15.93 24 12 24 12C24 12 24 8.07004 23.498 6.18604ZM9.545 15.568V8.43204L15.818 12L9.545 15.568Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                    <a aria-label="twitter" href="https://x.com/?lang=en" target="_blank">
+                        <svg class="hover:scale-[1.1] transition-all ease-linear duration-300" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M18.901 1.15295H22.581L14.541 10.343L24 22.846H16.594L10.794 15.262L4.156 22.846H0.474L9.074 13.016L0 1.15395H7.594L12.837 8.08595L18.901 1.15295ZM17.61 20.644H19.649L6.486 3.23995H4.298L17.61 20.644Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="flex flex-col sm:flex-row sm:items-center sm:gap-[42px] gap-4">
+                    <p class="font-normal text-sm leading-120 text-sky-blue text-nowrap">
+                        © 2002 - <span id="current-year"></span> Voltimum,
+                        <a aria-label="voltimum" target="_blank" href="http://www.voltimum.com">www.voltimum.com</a>
+                    </p>
+                    <a href="#" class="font-normal text-sm leading-120 text-white">Legal</a>
+                </div>
+                <div class="flex items-center gap-6 max-sm:hidden">
+                    <a aria-label="facebook" href="https://www.facebook.com/" target="_blank">
+                        <svg class="hover:scale-[1.1] transition-all ease-linear duration-300" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_382_1120)">
+                                <path
+                                    d="M9.101 23.6909V15.7109H6.627V12.0439H9.101V10.4639C9.101 6.37895 10.949 4.48595 14.959 4.48595C15.36 4.48595 15.914 4.52795 16.427 4.58895C16.8112 4.62848 17.1924 4.69363 17.568 4.78395V8.10895C17.3509 8.08869 17.133 8.07668 16.915 8.07295C16.6707 8.0666 16.4264 8.0636 16.182 8.06395C15.475 8.06395 14.923 8.15995 14.507 8.37295C14.2273 8.51326 13.9922 8.72862 13.828 8.99495C13.57 9.41495 13.454 9.98995 13.454 10.7469V12.0439H17.373L16.987 14.1469L16.7 15.7109H13.454V23.9559C19.396 23.2379 24 18.1789 24 12.0439C24 5.41695 18.627 0.0439453 12 0.0439453C5.373 0.0439453 0 5.41695 0 12.0439C0 17.6719 3.874 22.3939 9.101 23.6909Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_382_1122">
+                                    <rect width="24" height="24" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a aria-label="linkedin" href="https://www.linkedin.com/login" target="_blank">
+                        <svg class="hover:scale-[1.1] transition-all ease-linear duration-300" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_382_1126)">
+                                <path
+                                    d="M20.447 20.452H16.893V14.883C16.893 13.555 16.866 11.846 15.041 11.846C13.188 11.846 12.905 13.291 12.905 14.785V20.452H9.351V9H12.765V10.561H12.811C13.288 9.661 14.448 8.711 16.181 8.711C19.782 8.711 20.448 11.081 20.448 14.166L20.447 20.452ZM5.337 7.433C4.193 7.433 3.274 6.507 3.274 5.368C3.274 4.23 4.194 3.305 5.337 3.305C6.477 3.305 7.401 4.23 7.401 5.368C7.401 6.507 6.476 7.433 5.337 7.433ZM7.119 20.452H3.555V9H7.119V20.452ZM22.225 0H1.771C0.792 0 0 0.774 0 1.729V22.271C0 23.227 0.792 24 1.771 24H22.222C23.2 24 24 23.227 24 22.271V1.729C24 0.774 23.2 0 22.222 0H22.225Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_382_1127">
+                                    <rect width="24" height="24" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a aria-label="u-tube" href="https://www.youtube.com/" target="_blank">
+                        <svg class="hover:scale-[1.1] transition-all ease-linear duration-300" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M23.498 6.18604C23.3624 5.67532 23.095 5.20918 22.7226 4.83431C22.3502 4.45943 21.8858 4.18899 21.376 4.05004C19.505 3.54504 12 3.54504 12 3.54504C12 3.54504 4.495 3.54504 2.623 4.05004C2.11341 4.18923 1.64929 4.45978 1.27708 4.83463C0.904861 5.20947 0.637591 5.67548 0.502 6.18604C0 8.07004 0 12 0 12C0 12 0 15.93 0.502 17.814C0.637586 18.3248 0.904975 18.7909 1.27739 19.1658C1.64981 19.5407 2.11418 19.8111 2.624 19.95C4.495 20.455 12 20.455 12 20.455C12 20.455 19.505 20.455 21.377 19.95C21.8869 19.8112 22.3513 19.5408 22.7237 19.1659C23.0961 18.791 23.3635 18.3248 23.499 17.814C24 15.93 24 12 24 12C24 12 24 8.07004 23.498 6.18604ZM9.545 15.568V8.43204L15.818 12L9.545 15.568Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                    <a aria-label="twitter" href="https://x.com/?lang=en" target="_blank">
+                        <svg class="hover:scale-[1.1] transition-all ease-linear duration-300" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M18.901 1.15295H22.581L14.541 10.343L24 22.846H16.594L10.794 15.262L4.156 22.846H0.474L9.074 13.016L0 1.15395H7.594L12.837 8.08595L18.901 1.15295ZM17.61 20.644H19.649L6.486 3.23995H4.298L17.61 20.644Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/partner.js"></script>
+    <script src="./assets/js/searchpopup.js"></script>
+</body>
+
+</html>
